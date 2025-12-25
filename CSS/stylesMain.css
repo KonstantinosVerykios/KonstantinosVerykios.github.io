@@ -280,7 +280,8 @@ h4 {
 
 /* Container for skill bars */
 .container {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   background-color: white;
 }
 
@@ -289,7 +290,8 @@ h4 {
   padding-top: 5px;
   padding-bottom:5px;
   padding-left: 7px;
-  color: #EDEBEA;
+  color: black;
+  font-size: x-large;
 }
 
 .unity {width: 29%; background-color: #3F7952;}
@@ -298,11 +300,11 @@ h4 {
 .blender {width: 37%; background-color: #3F7952;}
 .micro {width: 55%; background-color: #3F7952;}
 
-.finnish {width: 95%; background-color: #164626;}
-.english {width: 85%; background-color: #164626;}
-.greek {width: 55%; background-color: #164626;}
-.bosnian {width: 37%; background-color: #164626;}
-.swedish {width: 33%; background-color: #164626;}
+.finnish {width: 95%; background-color: #3F7952;}
+.english {width: 85%; background-color: #3F7952;}
+.greek {width: 55%; background-color: #3F7952;}
+.bosnian {width: 37%; background-color: #3F7952;}
+.swedish {width: 33%; background-color: #3F7952;}
 
 .project {
     margin: 10px;
@@ -378,7 +380,7 @@ box-sizing: border-box;
     }
 
     .container{
-        width: 250px;
+        max-width: 250px;
     }
 
     .proText{
