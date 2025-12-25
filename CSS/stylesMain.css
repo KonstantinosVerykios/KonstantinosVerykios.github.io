@@ -12,6 +12,22 @@ div {
     display:flex;
 }
 
+nav {
+    display:flex;
+}
+
+main{
+    display:flex;
+}
+
+section {
+    display:flex;
+}
+
+article {
+    display:flex;
+}
+
 p {
     font-size: larger;
     color:#EDEBEA;
@@ -74,6 +90,11 @@ a {
     color:#EDEBEA; 
     text-decoration: none; 
     font-size: larger;
+}
+
+a:focus {
+    outline: 4px solid red; 
+    outline-offset: 2px;
 }
 
 a:hover {
