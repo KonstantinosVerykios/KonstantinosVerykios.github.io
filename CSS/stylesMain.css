@@ -26,8 +26,15 @@ select {
     color:#EDEBEA;
     font-size: large;
     border: solid #EDEBEA;
-    border-radius: 10px;
 }
+
+option {
+    background-color: #021967 ;
+    color:#EDEBEA;
+    font-size: medium;
+}
+
+
 
 div {
     display:flex;
@@ -37,6 +44,19 @@ div {
 nav {
     display:flex;
     align-items: space-between;
+}
+
+.iconGroup {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.leftGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
 }
 
 main{
@@ -98,6 +118,7 @@ header {
     background-color: #021967 ;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     z-index: 1;
 }
 
@@ -158,6 +179,7 @@ h4 {
     font-family: "DM Sans", sans-serif;
 }
 
+
 #fullPage {
     min-height: 100vh;
     width: 100%;
@@ -173,6 +195,7 @@ h4 {
 }
 
 .mePicture {
+    display: flex;
     border-radius: 100px;
     width: 100%;
     height: auto;
@@ -230,6 +253,8 @@ h4 {
 .linksHeader {
     
     border-color: #EDEBEA ;
+    border-style: solid;
+    border-radius: 10px;
     font-size: x-large;
     margin: 10px;
     padding:5px;
@@ -287,9 +312,13 @@ h4 {
 
 
 .container {
-  width: 100%;
-  max-width: 300px;
-  background-color: white;
+
+    width: 100%;
+    max-width: 300px;
+    background-color: white;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: larger;
 }
 
 .skills {
@@ -297,9 +326,19 @@ h4 {
   padding-top: 5px;
   padding-bottom:5px;
   padding-left: 7px;
-  color: black;
-  font-size: x-large;
-  
+  color: #EDEBEA;
+  font-size: larger;
+    margin: 1px;
+}
+
+.skillsSoftware {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-left: 7px;
+  margin: 1px;
+  color: #EDEBEA;
+  font-size: larger;
 }
 
 .unity {width: 29%; background-color: #3F7952;}
@@ -395,7 +434,11 @@ box-sizing: border-box;
         padding: 0 15px 15px 15px;
         font-size: medium;
     }
-
+    .linksHeader {
+        font-size: medium;
+        margin:4px 2px;
+        padding:4px;
+    }
     .skills{
         padding-left: 2px;
         text-align: left;
@@ -410,12 +453,7 @@ box-sizing: border-box;
     }
 
     h3, h4 {
-        font-size: large;
-    }
-
-    .linksHeader {
-    margin:6px 2px;
-    padding:5px;
+        font-size: larger;
     }
 
 }

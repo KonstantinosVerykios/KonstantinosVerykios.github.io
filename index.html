@@ -32,16 +32,22 @@
     <body class="row">
         <div id="fullPage">
             <header class="row padding">
-                <article class="row">
-                <h4> Konstantinos-Gavriil Verykios</h4>
-                </article>
+                <div class="leftGroup">
+                    <div id="name">
+                    <h4> Konstantinos-Gavriil Verykios</h4>
+                    </div>
+                    <div class="iconGroup">
+                        <a href="https://www.linkedin.com/in/konstantinos-verykios-144886334/" target="_blank"> <img src="IMG/icons8-linkedin-ios-17-filled-32.png" alt="LinkedIn symbol" loading="lazy" width="32" height="32"></a>
+                        <a href="https://github.com/KonstantinosVerykios" target="_blank" > <img src="IMG/icons8-github-96.png" alt="GitHub symbol" loading="lazy" width="32" height="32"> </a>
+                    </div>
+                </div>
                 <nav class="row">
                     <a class="linksHeader" href="Pages/All_Projects.html"> Projects </a>
                     <a class="linksHeader" href="#featuredProjects">Featured </a>
 
-                    <select class="linksHeader" onchange="location = this.value;">
+                    <select name="dropdown" class="linksHeader" onchange="location = this.value;">
                         <option value="" disabled selected> More</option>
-                        <option value="Pages/About_Me.html"> About Me </option>
+                        <option value="Pages/About_Me.html"> About </option>
                         <option value="Pages/Contact.html"> CTA </option>
                         <option value="Documents/Konstantinos_Verykios_CV.pdf"> CV </option>
                     </select>
@@ -52,13 +58,13 @@
                 <!---Intro start-->
                 <section id="intro" class="bb col">
                     <h2> Introduction</h2>
-                    <img class="mePicture responsive" src="IMG/SelfPortrait.jpg" alt ="A portrait of Konstantinos Verykios (PLACEHOLDER)" loading="lazy" width="300" height="300">
-                    <article>
+                    <div class="col">
+                        <img class="mePicture" src="IMG/SelfPortrait.jpg" alt ="A portrait of Konstantinos Verykios (PLACEHOLDER)" loading="lazy" width="300" height="300">
                         <p id="aboutMe" class=""> Hello!<br><br>
                         I’m Konstantinos Verykios a game programming student currently studying at South-Eastern Finland University of Applied Sciences (Xamk). I am on track to graduate in 2028 with a bachelor’s degree in engineering. 
                         <br><br>Working (and playing) with games is my passion, mainly with programming, but I also enjoy exploring all aspects of the industry. My main objective is to deepen my understanding of game development beyond a programmer’s pespective. 
                         </p>
-                    </article>
+                    </div>
                 </section> <!--Intro end-->
 
                 <section id="tools" class="bb col">
@@ -87,56 +93,56 @@
                     </div>
                     <div class="row">
                         <div class="col padding">
-                            <p>Unity(C#)</p>
+                            <p>Unity(C#) (Beginner)</p>
                             <div class="container">
-                                <div class="skills unity">Beginner</div>
+                                <div class="skillsSoftware unity"></div>
                             </div>
 
-                            <p>Unreal(C++)</p>
+                            <p>Unreal(C++) (Beginner)</p>
                             <div class="container">
-                                <div class="skills unreal">Beginner</div>
+                                <div class="skillsSoftware unreal"></div>
                             </div>
 
-                            <p>GitHub</p>
+                            <p>GitHub (Familiar)</p>
                             <div class="container">
-                                <div class="skills github">Familiar</div>
+                                <div class="skillsSoftware github"></div>
                             </div>
 
-                            <p>Blender</p>
+                            <p>Blender (Familiar)</p>
                             <div class="container">
-                                <div class="skills blender">Familiar</div>
+                                <div class="skillsSoftware blender"></div>
                             </div>
 
-                            <p>Microsoft Office 365</p>
+                            <p>Microsoft Office 365 (Experienced)</p>
                             <div class="container">
-                                <div class="skills micro">Experienced</div>
+                                <div class="skillsSoftware micro"></div>
                             </div>
                         </div>
 
                         <div class="col padding">
                             <p>Finnish </p>
                             <div class="container">
-                                <div class="skills finnish">Fluent</div>
+                                <div class="skills finnish">C2</div>
                             </div>
 
                             <p>English</p>
                             <div class="container">
-                                <div class="skills english">Fluent</div>
+                                <div class="skills english">C1</div>
                             </div>
 
                             <p>Greek</p>
                             <div class="container">
-                                <div class="skills greek">Fluent</div>
+                                <div class="skills greek">B2</div>
                             </div>
 
                             <p>Bosnian, Croatian, Serbian</p>
                             <div class="container">
-                                <div class="skills bosnian">Beginner</div>
+                                <div class="skills bosnian">A2</div>
                             </div>
 
                             <p>Swedish</p>
                             <div class="container">
-                                <div class="skills swedish">Beginner</div>
+                                <div class="skills swedish">B1</div>
                             </div>
                         </div>
                     </div>
@@ -203,10 +209,10 @@
             </main> <!--ContentWrapper end-->
             <footer class="row padding">
                 <div class="row">
-                    <a href="https://www.linkedin.com/in/konstantinos-verykios-144886334/" target="_blank"> <img src="IMG/icons8-linkedin-ios-17-filled-96.png" alt="LinkedIn symbol" loading="lazy" width="96" height="96"></a>
-                    <a href="https://github.com/KonstantinosVerykios" target="_blank" > <img src="IMG/icons8-github-96.png" alt="GitHub symbol" loading="lazy" width="96" height="96"> </a>
+                    
                 </div>
-                <div class="row">
+                <div class="col">
+                    <p>@2025 Konstantinos Verykios</p>
                     <p>Icons by <a class="underline" href="https://icons8.com/icons/"> Icons8.com</a></p> 
                 </div>
                 </footer>    
