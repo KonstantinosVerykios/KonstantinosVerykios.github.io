@@ -47,7 +47,6 @@ nav {
 .iconGroup {
     display: flex;
     flex-direction: row;
-    
 }
 
 .leftGroup {
@@ -131,16 +130,14 @@ footer {
 }
 
 .backToTop {
-    font-style: normal;
     background-color: #EDEBEA;
     color: #021967;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 10px;
 }
 
 .backToTop:hover {
-    background-color: #ccc;
+    background-color: #946f5a67;
 }
 
 a {
