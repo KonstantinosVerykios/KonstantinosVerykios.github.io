@@ -41,6 +41,7 @@ nav {
 
 main{
     display:flex;
+    flex-direction: column;
 }
 
 section {
@@ -183,6 +184,12 @@ h4 {
     font-size: larger;
 }
 
+#game{
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+
 #tools {
     padding: 10px;
     margin: 10px;
@@ -197,9 +204,14 @@ h4 {
     padding: 30px;
     height: auto;
     width: 100%;
+    align-items: center;
 }
 
-
+#schoolWork {
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
 
 #skillsWrapper {
     padding: 10px 10px 25px 10px;
@@ -233,9 +245,9 @@ h4 {
 
 .lb {
     background-color:#2C42AF;
-    opacity: 1;
     border-radius: 25px;
     padding: 2px 8px 2px 8px;
+    align-items: center;
 }
 
 .wborder {
