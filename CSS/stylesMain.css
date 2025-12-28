@@ -34,8 +34,6 @@ option {
     font-size: medium;
 }
 
-
-
 div {
     display:flex;
     align-items: center;
@@ -130,6 +128,19 @@ footer {
     color:#EDEBEA;
     background-color: #021967 ;
     justify-content: center;
+}
+
+.backToTop {
+    font-style: normal;
+    background-color: #EDEBEA;
+    color: #021967;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.backToTop:hover {
+    background-color: #ccc;
 }
 
 a {
@@ -368,7 +379,9 @@ h4 {
 .underline {
     text-decoration: underline;
 }
-
+.smallText {
+    font-size: small;
+}
 input[type=submit] {
     color:#EDEBEA;
 }
