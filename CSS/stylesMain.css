@@ -20,10 +20,6 @@ html, body {
     flex-wrap: wrap;
 }
 
-
-
-
-
 select {
     background-color: #021967 ;
     color:#EDEBEA;      
@@ -266,10 +262,14 @@ h4 {
 #featuredProjects{
     padding: 10px;
     margin: 10px;
-    align-items: center;
     width:100%;
+    align-items: center;
     height: auto;
     flex-wrap: nowrap;
+}
+
+.spaceAround {
+    justify-content: space-around;
 }
 
 .linksHeader {
