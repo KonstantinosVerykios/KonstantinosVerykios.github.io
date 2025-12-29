@@ -8,7 +8,6 @@ html, body {
     line-height: 1.15;
 }
 
-
 .row{
     display: flex;
     flex-direction: row;
@@ -24,14 +23,14 @@ html, body {
 select {
     background-color: #021967 ;
     color:#EDEBEA;
-    font-size: large;
+   
     border: solid #EDEBEA;
 }
 
 option {
     background-color: #021967 ;
     color:#EDEBEA;
-    font-size: medium;
+    font-size: large;
 }
 
 div {
@@ -55,6 +54,10 @@ nav {
     align-items: center;
     
 }
+hr{
+    width:80%;
+    border-color: #EDEBEA;
+}
 
 main{
     display:flex;
@@ -76,6 +79,10 @@ p {
     margin: 5px;
     font-family: "DM Sans", sans-serif;
     font-style: normal;
+}
+
+.proText {
+    padding: 10px 15px 30px 15px;  
 }
 
 .contact {
@@ -422,16 +429,20 @@ box-sizing: border-box;
 }
 
 .paddingTop {
-    padding-top: 35px;
+    padding-top: 25px;
 }
 
 @media screen and (max-width: 750px) {
 
     div{
         flex-direction: column;
-        margin: 0;
     }
-    
+    #skillsWrapper {
+        flex-direction: column;
+        padding: 10px 5px 25px 5px;
+        margin: 5px;
+        align-items: center;
+    }
     a{
         font-size: large;
     }
@@ -441,9 +452,10 @@ box-sizing: border-box;
     }
 
     .proText{
-        padding: 0 15px 15px 15px;
+        padding: 10px 15px 30px 15px;
         font-size: medium;
     }
+
     .linksHeader {
         font-size: medium;
         margin:4px 2px;
