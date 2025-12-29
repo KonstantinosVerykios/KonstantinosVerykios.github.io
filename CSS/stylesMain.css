@@ -20,10 +20,13 @@ html, body {
     flex-wrap: wrap;
 }
 
+
+
+
+
 select {
     background-color: #021967 ;
-    color:#EDEBEA;
-   
+    color:#EDEBEA;      
     border: solid #EDEBEA;
 }
 
@@ -161,6 +164,7 @@ a:focus {
 a:hover {
     color: #946F5A;
     border-color: #946F5A ;
+    transform: scale(1.1);
 }
 
 h1 {
@@ -225,6 +229,8 @@ h4 {
 #game{
     padding: 10px;
     margin: 10px;
+    width: 100%;
+    height: auto;
     align-items: center;
 }
 
@@ -263,6 +269,7 @@ h4 {
     align-items: center;
     width:100%;
     height: auto;
+    flex-wrap: nowrap;
 }
 
 .linksHeader {
@@ -298,7 +305,8 @@ h4 {
 }
 
 .maxW {
-    max-width: 800px;
+    max-width: 600px;
+    max-height: auto;
     min-width: 200px;
     padding: 5px 5px 15px 5px;
 }
