@@ -250,12 +250,18 @@ h4 {
 #schoolWork {
     padding: 10px;
     margin: 10px;
+    width: 100%;
+    height: auto;
     align-items: center;
 }
 
 #skillsWrapper {
     padding: 10px 10px 25px 10px;
     margin: 10px;
+    align-items: center;
+}
+
+#linkSide {
     align-items: center;
 }
 
@@ -465,7 +471,7 @@ box-sizing: border-box;
     }
 
     .linksHeader {
-        font-size: medium;
+        font-size: small;
         margin:4px 2px;
         padding:4px;
     }
