@@ -455,6 +455,8 @@ box-sizing: border-box;
         flex-direction: column;
         padding: 10px 5px 25px 5px;
         margin: 5px;
+        width:100%;
+        height:auot;
         align-items: center;
     }
     a{
