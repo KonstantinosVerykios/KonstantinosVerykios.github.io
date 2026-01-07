@@ -65,6 +65,9 @@ main{
 
 section {
     display:flex;
+    max-width: 90%;
+    min-width: 200px;
+    height: auto;
 }
 
 article {
@@ -72,7 +75,7 @@ article {
 }
 
 p {
-    font-size: larger;
+    font-size: large;
     color:#EDEBEA;
     font-weight: 500;
     margin: 5px;
@@ -101,17 +104,21 @@ form {
 
 ul {
     list-style-type: none;
-    font-size: x-large;
+    font-size: large;
     justify-content: center;
     padding: 5px;
     margin: 5px;
     color: #EDEBEA;
+    font-weight: 200;
 }
 
 ol {
     color: #EDEBEA;
-    font-size: x-large;
+    font-size: larger;
+    margin: 5px;
+    justify-content: center;
 }
+
 header {
     width: 100%;
     position: sticky;
@@ -167,6 +174,7 @@ h1 {
     margin: 5px;
     color:#EDEBEA;
     text-decoration: underline;
+    font-size: xx-large;
 }
 
 h2 {
@@ -236,6 +244,7 @@ h4 {
     align-items: center;
 }
 
+
 #contentWrapper {
     background-color: #2C42AF ;
     border-style:solid;
@@ -279,7 +288,6 @@ h4 {
 }
 
 .linksHeader {
-    
     border-color: #EDEBEA ;
     border-style: solid;
     border-radius: 10px;
@@ -317,6 +325,9 @@ h4 {
     padding: 5px 5px 15px 5px;
 }
 
+.maxTextWidth {
+    max-width: 800px;
+}
 
 .centered {
     flex-wrap: wrap;
@@ -391,7 +402,7 @@ h4 {
 }
 
 .padding {
-    padding: 15px;
+    padding: 10px;
 }
 
 .underline {
