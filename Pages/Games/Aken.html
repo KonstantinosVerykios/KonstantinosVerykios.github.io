@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, WEBPAGE DEVELOPMENT">
+        <meta name="description" content="Aken - An atmospheric boating game by Konstantinos Verykios, Väinö Taskinen and Le Nguyen for Finnish Game Jam 2026">
+        <meta name="author" content="Konstantinos Verykios">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../../CSS/stylesMain.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"></noscript>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="../../IMG/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../IMG/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../IMG/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <meta property="og:title" content="Aken - An atmospheric boating game by Konstantinos Verykios, Väinö Taskinen and Le Nguyen for Finnish Game Jam 2026">
+        <meta property="og:description" content="Aken - An atmospheric boating game by Konstantinos Verykios, Väinö Taskinen and Le Nguyen for Finnish Game Jam 2026">
+        <meta property="og:image" content="https://konstantinosverykios.github.io/IMG/Aken.jpg">
+        <meta property="og:url" content="https://konstantinosverykios.github.io/Pages/Games/Aken.html">
+        <meta property="og:type" content="website">
+
+        <title> Aken</title>
+
+    </head>
+    <body>
+        <div id="fullPage"> 
+            <!-- Header -->
+           <header class="row">
+               <nav id="LinkSide">
+                   <a class="linksHeader" href="../../index.html"> <img src="../../IMG/icons8-left-arrow-16.png" alt="" loading="lazy" width="16" height="16">Main Page</a>
+                   <a class="linksHeader" href="../All_Projects.html"> <img src="../../IMG/icons8-left-arrow-16.png" alt="" loading="lazy" width="16" height="16">All Projects </a>
+               </nav>
+           </header>
+
+           <main id="contentWrapper">
+                 <section id="intro" class="bb col ">
+                    <h1> Introduction</h1>
+                    <p class="contact"> <br>Aken was made for the Finnish Game Jam 2026. The theme was Mask. Aken is the ferryman of the egyptian underworld. In our game
+                        you play as Aken, the ferryman of the underworld, navigating through a foggy and atmospheric sea collecting the souls of the dead. For atmospheric purposes, we used 
+                        red fog and lighting effects. The sea is covered in a toxic fog that drains the players gas masks durability. So he must collect the bodies to replenish his mask. <br>
+                    </p>
+                </section>
+
+                <section class="bb col centered">
+                    <h1>Creators</h1>
+
+                    <div class="padding">
+                        <a>Konstantinos-Gavriil Verykios </a> 
+                        <p>3D-modeling, Programming</p>
+                    </div>
+                    <div class="padding">
+                        <a href="https://portfolio.gamelab.fi/vaino.taskinen/" target="_blank">Väinö Taskinen</a>  
+                        <p>Sound Design andProgramming</p>
+                    </div>
+                    <div  class="padding">
+                        <a href="https://portfolio.gamelab.fi/le.nguyen/"  target="_blank">Le Nguyen</a> 
+                        <p>3D-modeling and Animation</p>
+                    </div>
+                </section>
+
+                <section class="bb col centered">
+                    <h1>Project Details</h1>
+                    <h4>My Contributions</h4>
+                        <ol>
+                            <li> 
+                                <p class="bold underline">  Boat mechanics  and Water Physics </p>
+                                <p>
+                                    The boat mechanics and water physics were the core of the game. I implemented a simple boat controller that allowed the player to navigate through the water using the A and D keys.
+                                    The water physics were implemented using a simple wave system inside a shader, and I used a simple buoyancy system to make the boat float on the water. 
+                                    The boat would react to the waves through 4 floaters placed at the corners of the boat. Each floater would apply an upward force to the boat based on how submerged it was in the water. 
+                                    This allowed the boat to float and react to the waves in a realistic way.
+                                </p>
+                            </li>
+                            
+                            <li class="padding"> 
+                                <p class="bold underline"> Basic Collision Detection</p>
+                                <p>
+                                    For the collision detection, I implemented a simple system that would detect when the boat collided with the collectable bodies or the obstacles. 
+                                    When the boat collided with a body, it would collect it and increase the player's mask durability. When the boat collided with an obstacle, it would just sink.
+                                </p>
+                            </li>
+
+                            <li class="padding"> 
+                                <p class="bold underline"> Environment and Obstacles</p>
+                                <p>
+                                    I made the placeholder environment and obstacles for the game. I created a simple sea environment with a red fog effect to create an atmospheric and eerie feeling. I also created some simple obstacles 
+                                    like rocks and mines and spheroid shapes that the player had to avoid while navigating the waters.
+                                </p>
+                            </li>
+                        </ol>
+                 </section>
+                
+            </main>
+
+           <footer class="col padding">
+                <div class="col">
+                <a href="#fullPage" class="backToTop">Back to Top</a>
+                </div>
+                <div class="col">
+                    <p>Copyright © 2025 Konstantinos Verykios • All Rights Reserved</p>
+                    <p>Icons by <a class="underline smallText" href="https://icons8.com/icons/" target="_blank"> Icons8.com</a></p> 
+                </div>
+            </footer>
+
+        </div> <!--FullPage end-->
+    </body>
+</html>
