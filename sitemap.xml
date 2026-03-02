@@ -11,33 +11,29 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://konstantinosverykios.github.io/Pages/Games/Peely/Peely.html</loc>
+    <loc>https://konstantinosverykios.github.io/Pages/Games/Peely.html</loc>
+    <lastmod>2025-12-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://konstantinosverykios.github.io/Pages/Games/Bubbles.html</loc>
     <lastmod>2025-12-26</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://konstantinosverykios.github.io/Pages/Games/Peely/Peely_Report.html</loc>
-    <lastmod>2025-12-26</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://konstantinosverykios.github.io/Pages/Games/BOP/Bubbles.html</loc>
+    <loc>https://konstantinosverykios.github.io/Pages/Games/Delusions.html</loc>
     <lastmod>2025-12-26</lastmod>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://konstantinosverykios.github.io/Pages/Games/BOP/Bubbles_Report.html</loc>
-    <lastmod>2025-12-26</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://konstantinosverykios.github.io/Pages/Games/DD/Delusions.html</loc>
-    <lastmod>2025-12-26</lastmod>
+    <url>
+    <loc>https://konstantinosverykios.github.io/Pages/Games/MiniGameMayhem.html</loc>
+    <lastmod>2026-02-02</lastmod>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://konstantinosverykios.github.io/Pages/Games/DD/Delusions_Report.html</loc>
-    <lastmod>2025-12-26</lastmod>
-    <priority>0.6</priority>
+    <url>
+    <loc>https://konstantinosverykios.github.io/Pages/Games/Aken.html</loc>
+    <lastmod>2026-02-02</lastmod>
+    <priority>0.7</priority>
   </url>
 </urlset>

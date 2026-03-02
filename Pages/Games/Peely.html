@@ -39,8 +39,71 @@
                 </nav>
             </header>
 
-            <main id="contentWrapper"> 
-                <h1> Coming soon!</h1>
+            <main id="contentWrapper">
+                 <section id="intro" class="bb col ">
+                    <h1> Introduction</h1>
+                    <p class="contact"> <br>Peely was made for Xamk's Fuxi Game Jam 2024. The theme was the old Metsola campus. In our game you play as a student stuck in the old campus after closing hours. 
+                        To escape you must collect #8# kumi-potatoes, but this objective is not so simple. The old campuses halls are haunted by a reanimated peeler called Peely. Collect the potatoes while 
+                        avoidig Peely to escape the old campuses grasp.<br>
+                    </p>
+                </section>
+
+                <section class="bb col centered">
+                    <h1>Creators</h1>
+
+                    <div class="padding">
+                        <a>Konstantinos-Gavriil Verykios </a> 
+                        <p>Programming</p>
+                    </div>
+                    <div class="padding">
+                        <a href="https://portfolio.gamelab.fi/vaino.taskinen/" target="_blank">Vivienne </a>  
+                        <p>Sound Design and Programming</p>
+                    </div>
+                    <div class="padding">
+                        <a href="https://portfolio.gamelab.fi/vaino.taskinen/" target="_blank">Miika </a>  
+                        <p>Sound Design and Programming</p>
+                    </div>
+                    <div class="padding">
+                        <a href="https://portfolio.gamelab.fi/vaino.taskinen/" target="_blank">Le Nguyen </a>  
+                        <p>Sound Design and Programming</p>
+                    </div>
+                    <div  class="padding">
+                        <a href="https://portfolio.gamelab.fi/le.nguyen/"  target="_blank">Mikael</a> 
+                        <p>3D-modeling and Animation</p>
+                    </div>
+                </section>
+
+                <section class="bb col centered">
+                    <h1>Project Details</h1>
+                    <h4>My Contributions</h4>
+                        <ol>
+                            <li> 
+                                <p class="bold underline"> Learning about game developing and new systems </p>
+                                <p>
+                                    The boat mechanics and water physics were the core of the game. I implemented a simple boat controller that allowed the player to navigate through the water using the A and D keys.
+                                    The water physics were implemented using a simple wave system inside a shader, and I used a simple buoyancy system to make the boat float on the water. 
+                                    The boat would react to the waves through 4 floaters placed at the corners of the boat. Each floater would apply an upward force to the boat based on how submerged it was in the water. 
+                                    This allowed the boat to float and react to the waves in a realistic way.
+                                </p>
+                            </li>
+                            
+                            <li class="padding"> 
+                                <p class="bold underline"> Basic movement</p>
+                                <p>
+                                    For the collision detection, I implemented a simple system that would detect when the boat collided with the collectable bodies or the obstacles. 
+                                    When the boat collided with a body, it would collect it and increase the player's mask durability. When the boat collided with an obstacle, it would just sink.
+                                </p>
+                            </li>
+
+                            <li class="padding"> 
+                                <p class="bold underline"> Collectable potatoes</p>
+                                <p>
+                                    I made the placeholder environment and obstacles for the game. I created a simple sea environment with a red fog effect to create an atmospheric and eerie feeling. I also created some simple obstacles 
+                                    like rocks and mines and spheroid shapes that the player had to avoid while navigating the waters.
+                                </p>
+                            </li>
+                        </ol>
+                 </section>
             </main>
 
             <footer class="col padding">
