@@ -3,10 +3,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="keywords" content="HTML, CSS, WEBPAGE DEVELOPMENT">
-        <meta name="description" content="Peely A Unity Game Project by Konstantinos Verykios, Leevi, Miika, Le Nguyen, Vivienne">
-        <meta name="author" content="Konstantinos Verykios">
+        <meta name="keywords" content="Peely, Xamk Fuxi Game Jam 2024, Unity Horror Game, C# Game Development, Konstantinos Verykios">
+        <meta name="description" content="Peely — A survival game made in Unity (C#) for Xamk's Fuxi Game Jam 2024 by Konstantinos Verykios, Vivienne, Miika, Le Nguyen, and Mikael.">
+        <meta name="author" content="Konstantinos-Gavriil Verykios">
+        <meta name="robots" content="index, follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="canonical" href="https://konstantinosverykios.github.io/Pages/Games/Peely.html">
 
         <link rel="stylesheet" href="../../CSS/stylesMain.css">
 
@@ -20,13 +22,19 @@
         <link rel="icon" type="image/png" sizes="16x16" href="../../IMG/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
 
-        <meta property="og:title" content="Peely Detailed Report - Konstantinos Verykios Portfolio">
-        <meta property="og:description" content="Peely Detailed Report - Konstantinos Verykios Portfolio">
+        <meta property="og:title" content="Peely (2024) | Fuxi Game Jam Project — Konstantinos Verykios">
+        <meta property="og:description" content="Peely — A survival game set in Xamk's old Metsola campus, built in Unity (C#) for Fuxi Game Jam 2024.">
         <meta property="og:image" content="https://konstantinosverykios.github.io/IMG/Peely.png">
         <meta property="og:url" content="https://konstantinosverykios.github.io/Pages/Games/Peely.html">
-        <meta property="og:type" content="website">
+        <meta property="og:type" content="article">
+        <meta property="og:site_name" content="Konstantinos Verykios Portfolio">
 
-        <title> Peely</title>
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Peely (2024) | Fuxi Game Jam Project — Konstantinos Verykios">
+        <meta name="twitter:description" content="Peely — A survival game set in Xamk's old Metsola campus, built in Unity (C#) for Fuxi Game Jam 2024.">
+        <meta name="twitter:image" content="https://konstantinosverykios.github.io/IMG/Peely.png">
+
+        <title>Peely (2024) | Konstantinos-Gavriil Verykios Portfolio</title>
 
     </head>
 
@@ -35,71 +43,66 @@
             <header class="row">
                 <nav id="LinkSide">
                     <a class="linksHeader" href="../../index.html"> <img src="../../IMG/icons8-left-arrow-16.png" alt="" loading="lazy" width="16" height="16">Main Page</a>
-                    <a class="linksHeader" href="../All_Projects.html"> <img src="../../IMG/icons8-left-arrow-16.png" alt="" loading="lazy">All Projects </a>
+                    <a class="linksHeader" href="../All_Projects.html"> <img src="../../IMG/icons8-left-arrow-16.png" alt="" loading="lazy" width="16" height="16">All Projects </a>
                 </nav>
             </header>
 
             <main id="contentWrapper">
-                 <section id="intro" class="bb col ">
+                 <section id="intro" class="bb col">
                     <h1> Introduction</h1>
                     <p class="contact"> <br>Peely was made for Xamk's Fuxi Game Jam 2024. The theme was the old Metsola campus. In our game you play as a student stuck in the old campus after closing hours. 
-                        To escape you must collect #8# kumi-potatoes, but this objective is not so simple. The old campuses halls are haunted by a reanimated peeler called Peely. Collect the potatoes while 
-                        avoidig Peely to escape the old campuses grasp.<br>
+                        To escape you must collect 8 kumi-potatoes, but this objective is not so simple. The old campus's halls are haunted by a reanimated peeler called Peely. Collect the potatoes while 
+                        avoiding Peely to escape the old campus's grasp.<br>
                     </p>
                 </section>
 
                 <section class="bb col centered">
-                    <h1>Creators</h1>
+                    <h2>Creators</h2>
 
                     <div class="padding">
-                        <a>Konstantinos-Gavriil Verykios </a> 
+                        <p class="bold">Konstantinos-Gavriil Verykios</p> 
                         <p>Programming</p>
                     </div>
                     <div class="padding">
-                        <a href="https://portfolio.gamelab.fi/vaino.taskinen/" target="_blank">Vivienne </a>  
+                        <p class="bold">Vivienne</p>  
                         <p>Sound Design and Programming</p>
                     </div>
                     <div class="padding">
-                        <a href="https://portfolio.gamelab.fi/vaino.taskinen/" target="_blank">Miika </a>  
+                        <p class="bold">Taina</p>  
                         <p>Sound Design and Programming</p>
                     </div>
                     <div class="padding">
-                        <a href="https://portfolio.gamelab.fi/vaino.taskinen/" target="_blank">Le Nguyen </a>  
+                        <a href="https://portfolio.gamelab.fi/le.nguyen/" target="_blank" rel="noopener noreferrer">Le Nguyen</a>  
                         <p>Sound Design and Programming</p>
                     </div>
-                    <div  class="padding">
-                        <a href="https://portfolio.gamelab.fi/le.nguyen/"  target="_blank">Mikael</a> 
+                    <div class="padding">
+                        <p class="bold">Mikael</p> 
                         <p>3D-modeling and Animation</p>
                     </div>
                 </section>
 
                 <section class="bb col centered">
-                    <h1>Project Details</h1>
+                    <h2>Project Details</h2>
                     <h4>My Contributions</h4>
                         <ol>
                             <li> 
-                                <p class="bold underline"> Learning about game developing and new systems </p>
+                                <p class="bold underline"> Learning about game development and new systems </p>
                                 <p>
-                                    The boat mechanics and water physics were the core of the game. I implemented a simple boat controller that allowed the player to navigate through the water using the A and D keys.
-                                    The water physics were implemented using a simple wave system inside a shader, and I used a simple buoyancy system to make the boat float on the water. 
-                                    The boat would react to the waves through 4 floaters placed at the corners of the boat. Each floater would apply an upward force to the boat based on how submerged it was in the water. 
-                                    This allowed the boat to float and react to the waves in a realistic way.
+                                    This project was my very first time programming inside a game engine (Unity) and using C#. During the 48-hour game jam, I focused on learning how scenes, GameObjects, components, and C# scripts interact in Unity.
                                 </p>
                             </li>
                             
                             <li class="padding"> 
                                 <p class="bold underline"> Basic movement</p>
                                 <p>
-                                    For the collision detection, I implemented a simple system that would detect when the boat collided with the collectable bodies or the obstacles. 
-                                    When the boat collided with a body, it would collect it and increase the player's mask durability. When the boat collided with an obstacle, it would just sink.
+                                    I worked on implementing the player movement mechanics so the player could navigate the halls of the old Metsola campus while evading Peely.
                                 </p>
                             </li>
 
                             <li class="padding"> 
                                 <p class="bold underline"> Collectable potatoes</p>
                                 <p>
-                                    I made the placeholder environment and obstacles for the game. I created a simple sea environment with a red fog effect to create an atmospheric and eerie feeling. I also created some simple obstacles 
-                                    like rocks and mines and spheroid shapes that the player had to avoid while navigating the waters.
+                                    I implemented the interaction and collection logic for the kumi-potatoes scattered around the campus, tracking the player's progress toward collecting all 8 potatoes needed to escape.
                                 </p>
                             </li>
                         </ol>
@@ -108,11 +111,11 @@
 
             <footer class="col padding">
                 <div class="col">
-                <a href="#fullPage" class="backToTop">Back to Top</a>
+                    <a href="#fullPage" class="backToTop">Back to Top</a>
                 </div>
                 <div class="col">
                     <p>Copyright © 2026 Konstantinos Verykios • All Rights Reserved</p>
-                    <p>Icons by <a class="underline smallText" href="https://icons8.com/icons/" target="_blank"> Icons8.com</a></p> 
+                    <p>Icons by <a class="underline smallText" href="https://icons8.com/icons/" target="_blank" rel="noopener noreferrer"> Icons8.com</a></p> 
                 </div>
             </footer>
         </div>
