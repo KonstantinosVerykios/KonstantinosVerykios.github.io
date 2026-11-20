@@ -9,7 +9,8 @@
     --accent-terracotta-bg: rgba(148, 111, 90, 0.25);
     --accent-green: #3F7952;
     --accent-green-border: #559c6c;
-    --border-solid: #EDEBEA;
+    --border-solid: #946F5A;
+    --border-solid-light: #d4d1cf;
     --border-muted: rgba(237, 235, 234, 0.3);
     --border-terracotta: #946F5A;
     --shadow-card: 0 10px 26px rgba(1, 7, 26, 0.55);
@@ -224,9 +225,8 @@ footer {
 }
 
 .backToTop {
-    background-color: var(--border-solid);
+    background-color: var(--border-solid-light);
     color: var(--bg-surface);
-    border: 2px solid var(--border-solid);
     padding: 8px 24px;
     border-radius: var(--radius-sm);
     font-size: 0.98rem;
